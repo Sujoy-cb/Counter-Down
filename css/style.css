@@ -9,6 +9,10 @@
     font-family: 'Lato', sans-serif;
     color: #fff;
     background: #CC0000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 #Timer-part .left{
     background: #262626;
