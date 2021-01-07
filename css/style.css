@@ -1,0 +1,52 @@
+/* ---------css start------------ */
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#Timer-part{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    background: #CC0000;
+}
+#Timer-part .left{
+    background: #262626;
+    clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0 100%, 0 0);
+}
+#Timer-part .left .counter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#Timer-part .left .counter .time{
+    font-size: 18px;
+    padding: 20px;
+}
+#Timer-part .left .counter span{
+    font-size: 24px;
+    display: block;
+}
+#Timer-part .right{
+    display: flex;
+    justify-content: center;
+}
+#Timer-part .right h4{
+    margin-top: 38px;
+    margin-left: -160px;
+}
+#Timer-part .right .button a{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    background: #FFCC00;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 75px;
+    margin-top: 28px;
+}
+/* ---------css end------------ */

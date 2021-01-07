@@ -1,0 +1,118 @@
+@media (min-width:320px) and (max-width:570px){
+
+    #Timer-part{
+        padding-bottom: 20px;
+    }
+
+    #Timer-part .left .counter .time {
+        font-size: 16px;
+        padding: 15px;
+    }
+    #Timer-part .right{
+        display: initial;
+    }
+    #Timer-part .right h4{
+        margin-top: 25px;
+        margin-left: 65px;
+    }
+
+    #Timer-part .right .button a{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+}
+
+
+@media (min-width:571px) and (max-width:767px){
+
+    #Timer-part{
+        padding-bottom: 20px;
+    }
+
+    #Timer-part .left .counter .time {
+        font-size: 16px;
+        padding: 15px;
+    }
+    #Timer-part .right{
+        display: initial;
+    }
+    #Timer-part .right h4{
+        margin-top: 25px;
+        margin-left: 165px;
+    }
+    #Timer-part .right .button{
+        text-align: center;
+    }
+
+    #Timer-part .right .button a{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: -40px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+    #Timer-part{
+        padding-bottom: 0px;
+    }
+    #Timer-part .left{
+        height: 100%;
+    }
+
+    #Timer-part .left .counter .time {
+        font-size: 16px;
+        padding: 15px;
+    }
+    #Timer-part .right{
+        display: initial;
+    }
+    #Timer-part .right h4{
+        margin-top: 25px;
+        margin-left: 60px;
+    }
+    #Timer-part .right .button{
+        text-align: center;
+    }
+
+    #Timer-part .right .button a{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: -40px;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px){
+
+    #Timer-part{
+        padding-bottom: 0px;
+    }
+    #Timer-part .left{
+        height: 100%;
+    }
+
+    #Timer-part .left .counter .time {
+        font-size: 16px;
+        padding: 15px;
+    }
+    #Timer-part .right{
+        display: flex;
+    }
+    #Timer-part .right h4{
+        margin-top: 32px;
+        margin-left: -35px;
+    }
+    #Timer-part .right .button{
+        text-align: center;
+    }
+
+    #Timer-part .right .button a{
+        font-size: 14px;
+        margin-top: 23px;
+        margin-left: 50px;
+    }
+
+}
