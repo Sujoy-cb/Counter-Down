@@ -39,6 +39,10 @@
     margin-top: 38px;
     margin-left: -160px;
 }
+#Timer-part .right h4 span{
+    font-size: 30px;
+    font-weight: 800;
+}
 #Timer-part .right .button a{
     display: inline-block;
     font-family: 'Lato', sans-serif;
