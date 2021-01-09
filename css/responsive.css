@@ -3,11 +3,24 @@
     #Timer-part{
         padding-bottom: 20px;
     }
-
-    #Timer-part .left .counter .time {
-        font-size: 16px;
-        padding: 15px;
+    #Timer-part .left .countdown{
+        position: relative;
     }
+    #Timer-part .left .countdown .count-title{
+        display: block;
+        font-size: 15px;
+        left: 12px;
+    }
+    #Timer-part .left .countdown .min-title{
+        left: 94px;
+    }
+    #Timer-part .left .countdown .sec-title{
+        left: 181px;
+    }
+    #Timer-part .left .countdown .figure{
+        width: 30px;
+    }
+    
     #Timer-part .right{
         display: initial;
     }
@@ -30,10 +43,22 @@
     #Timer-part{
         padding-bottom: 20px;
     }
-
-    #Timer-part .left .counter .time {
-        font-size: 16px;
-        padding: 15px;
+    #Timer-part .left .countdown{
+        position: relative;
+    }
+    #Timer-part .left .countdown .count-title{
+        display: block;
+        font-size: 20px;
+        left: 33px;
+    }
+    #Timer-part .left .countdown .min-title{
+        left: 175px;
+    }
+    #Timer-part .left .countdown .sec-title{
+        left: 323px;
+    }
+    #Timer-part .left .countdown .figure{
+        width: 60px;
     }
     #Timer-part .right{
         display: initial;
@@ -62,10 +87,23 @@
     #Timer-part .left{
         height: 100%;
     }
-
-    #Timer-part .left .counter .time {
-        font-size: 16px;
-        padding: 15px;
+    #Timer-part .left .countdown{
+        position: relative;
+    }
+    #Timer-part .left .countdown .count-title{
+        display: block;
+        font-size: 18px;
+        bottom: 10px;
+        left: 12px;
+    }
+    #Timer-part .left .countdown .min-title{
+        left: 115px;
+    }
+    #Timer-part .left .countdown .sec-title{
+        left: 224px;
+    }
+    #Timer-part .left .countdown .figure{
+        width: 40px;
     }
     #Timer-part .right{
         display: initial;
@@ -100,10 +138,25 @@
     #Timer-part .left{
         height: 100%;
     }
-
-    #Timer-part .left .counter .time {
-        font-size: 16px;
-        padding: 15px;
+    #Timer-part .left .countdown{
+        position: relative;
+    }
+    #Timer-part .left .countdown .count-title{
+        display: block;
+        font-size: 15px;
+        bottom: 23px;
+        left: 12px;
+    }
+    #Timer-part .left .countdown .min-title{
+        left: 94px;
+        bottom: 23px;
+    }
+    #Timer-part .left .countdown .sec-title{
+        left: 181px;
+        bottom: 23px;
+    }
+    #Timer-part .left .countdown .figure{
+        width: 30px;
     }
     #Timer-part .right{
         display: initial;
